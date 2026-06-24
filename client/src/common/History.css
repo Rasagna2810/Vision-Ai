@@ -1,0 +1,61 @@
+.history-container {
+  position: relative;
+  padding: 20px;
+  width: 800px;
+  margin-left: 90px;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  color: red;
+  transition: transform 0.2s ease;
+}
+.lo{
+    width:100px;
+    /* margin:10px; */
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
+
+.date-group {
+  margin-bottom: 25px;
+}
+
+.date-heading {
+  margin-bottom: 10px;
+  color: #333;
+}
+.history-row{
+ box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 50px;
+}
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.history-item:hover {
+  background-color: #f9f9f9;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-title {
+  font-weight: 600;
+}
+
+.history-status {
+  font-size: 0.9rem;
+  color: #666;
+}

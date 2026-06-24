@@ -1,0 +1,27 @@
+# Client
+client/node_modules/
+client/dist/
+
+# Server
+server/venv/
+server/mp_env/
+server/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# ML Models
+*.pt
+*.onnx
+*.pkl
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

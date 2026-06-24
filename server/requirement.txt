@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+numpy
+pillow
+pandas 
+passlib
+dotenv
+python-multipart
+opencv-python
+scikit-learn
+pydantic[email]
+motor
